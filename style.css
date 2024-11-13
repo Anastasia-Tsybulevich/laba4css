@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh; 
+    background-image: url('fon.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .content {
+    background-color: rgba(245, 222, 179, 0.8); /* Бежевый цвет с полупрозрачностью */
+    padding: 30px;
+    border-radius: 15px; /* Скругляем углы */
+    text-align: center;
+    color: #333; /* Цвет текста */
+    max-width: 500px;
+    width: 100%;
+    position: absolute; /* Устанавливаем позицию элемента относительно родительского блока */
+    left: 70px; /* Сдвигаем на 70 пикселей влево */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero span {
+    color: #ff8c00; /* Цвет для выделения */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.hero .btn {
+    padding: 12px 25px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #fbb26a;
+}
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
